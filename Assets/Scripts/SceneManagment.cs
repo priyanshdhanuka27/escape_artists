@@ -16,6 +16,11 @@ public class SceneManagment : MonoBehaviour
         int nextIndex = SceneManager.GetActiveScene().buildIndex -1;
         SceneManager.LoadScene(nextIndex);
     }
+    public void LoadTownScene()
+    {
+        //int nextIndex = SceneManager.GetActiveScene().buildIndex -1;
+        SceneManager.LoadScene("Town");
+    }
     public void Exit()
 
     {

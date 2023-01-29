@@ -445,7 +445,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1494861869}
         m_TargetAssemblyTypeName: SceneManagment, Assembly-CSharp
-        m_MethodName: LoadNextScreen
+        m_MethodName: LoadTownScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
