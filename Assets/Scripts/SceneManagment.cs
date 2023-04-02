@@ -19,7 +19,7 @@ public class SceneManagment : MonoBehaviour
     public void LoadTownScene()
     {
         //int nextIndex = SceneManager.GetActiveScene().buildIndex -1;
-        SceneManager.LoadScene("Town");
+        SceneManager.LoadScene("World");
     }
     public void Exit()
 
