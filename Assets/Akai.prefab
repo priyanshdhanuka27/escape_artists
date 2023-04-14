@@ -1360,6 +1360,8 @@ GameObject:
   - component: {fileID: 2175915876011672759}
   - component: {fileID: 2621697026841110689}
   - component: {fileID: 4476422998559001438}
+  - component: {fileID: 3311187377783147354}
+  - component: {fileID: 3777796427977138188}
   m_Layer: 0
   m_Name: Akai
   m_TagString: Untagged
@@ -1568,6 +1570,36 @@ CharacterController:
   m_SkinWidth: 0.25
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &3311187377783147354
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5345808470187219096}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.95114523
+  m_Height: 2.1304467
+  m_Direction: 1
+  m_Center: {x: -0.00012321623, y: 0.93561745, z: -0.06942813}
+--- !u!54 &3777796427977138188
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5345808470187219096}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5409478876710071038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,6 +1673,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6818509820560807127}
+  - component: {fileID: 2075636427761158933}
+  - component: {fileID: 2980677600064601697}
   m_Layer: 0
   m_Name: mixamorig:Hips
   m_TagString: Untagged
@@ -1666,6 +1700,36 @@ Transform:
   m_Father: {fileID: 7675733341543779261}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &2075636427761158933
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991030064361527520}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &2980677600064601697
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991030064361527520}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6036113463725633964
 GameObject:
   m_ObjectHideFlags: 0
