@@ -2132,9 +2132,10 @@ MonoBehaviour:
     after thats done click P again
   - You have now picked up 1 object. Now that you have picked up the coin your next
     clue is to pick up a ladder
-  - You have now picked up 2 objects. Now your final clue is that you have to click
-    two buttons near the middle of your keyboard at the same time to go to the bunker
-  - 
+  - 'You have now picked up 2 objects. Now your final clue is that you have to click
+    two buttons near the middle of your keyboard at the same time to go to the bunker.
+    Once you have been telported, click P again. '
+  - 'Now that you have made it to the bunker '
   textSpeed: 0.07
 --- !u!114 &1696643629
 MonoBehaviour:
