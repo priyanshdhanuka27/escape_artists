@@ -59,7 +59,11 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            if (textComponent != null) {
+                textComponent.enabled = false;
+            }
         }
     }
 }
+    
 
